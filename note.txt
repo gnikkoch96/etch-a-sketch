@@ -1,0 +1,14 @@
+1. Create a 16x16 grid of square divs (will have a size of 960px x 960px --make them fit within that space)
+    a. I'm thinking that we do this with js using the createElement() 
+    b. place these divs in a another div that has the 'container' class
+    c. for now I'll use flexbox (i.e. display: flex)
+    d. be wary of margins, padding, and border size as they can affect the size of the squares
+
+
+2. Check for the hover event so that if a mouse were to hover over a div, it will be colored
+    a. change the color by getting reference to the div.style.background-color = 'color';
+
+3. A button should be added to clear out the sketch then the user will be asked to declare the grid size (max of 100). 
+
+4. (optional) instead of just having the only colors be black and white, make it random and each iteration leading up to the 10th color will be fully black. 
+    a. I assume that we just update the rgb values to decrease by 10% of their value until it reaches (0, 0 , 0);
