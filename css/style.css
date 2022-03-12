@@ -16,15 +16,25 @@ body {
 
 .container {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
+
+.container h1{
+    font-size: 45px;
+}
+
 
 .button-sketch-container {
     display: flex;
+    gap: 25px;
 }
 
 .user-buttons {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .sketch-panel{
