@@ -38,6 +38,8 @@ body {
 }
 
 .sketch-panel{
+    display: flex;
+    flex-wrap: wrap;
     width: 420px;
     height: 420px;
     border: 1px solid black;

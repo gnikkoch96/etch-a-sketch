@@ -3,6 +3,7 @@
     b. place these divs in a another div that has the 'container' class
     c. for now I'll use flexbox (i.e. display: flex)
     d. be wary of margins, padding, and border size as they can affect the size of the squares
+    e. to evenly create the # of required divs per row, I plan on taking the width of the parent div and dividing that the row size, and then have each div's height and width equal to that
 
 
 2. Check for the hover event so that if a mouse were to hover over a div, it will be colored
