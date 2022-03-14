@@ -38,6 +38,14 @@ body {
     justify-content: space-evenly;
 }
 
+#color-display{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: black;
+    padding: 36px;
+}
+
 .user-buttons button {
     width: 100px;
 }
