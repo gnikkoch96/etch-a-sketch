@@ -8,13 +8,16 @@ createGrid(gridSize);
 addButtonEvents();
 
 function addButtonEvents(){
+    let colorPicker = document.querySelector('#color-display');
+    colorPicker.addEventListener('change', () => currentColor = colorPicker.value);
+
     buttons.forEach(button => {
         if(button.id == 'eraser'){
             button.addEventListener('click', () => currentColor = 'white');
         }else if(button.id === 'rainbow'){
 
         }else if(button.id === 'choose-color'){
-            
+            button.addEventListener('click', () => currentColor = colorPicker.value);
         }else if(button.id === 'clear'){ // clear
             button.addEventListener('click', () => {
                 // clears sketch

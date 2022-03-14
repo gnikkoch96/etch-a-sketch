@@ -34,7 +34,12 @@ body {
 .user-buttons {
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-evenly;
+}
+
+.user-buttons button {
+    width: 100px;
 }
 
 .sketch-panel{
