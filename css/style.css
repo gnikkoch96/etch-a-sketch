@@ -11,6 +11,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -58,3 +64,9 @@ body {
     border: 1px solid black;
 }
 
+.footer {
+    text-align: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 8px 0;
+}

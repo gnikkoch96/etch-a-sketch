@@ -9,34 +9,36 @@
     <title>Etch-A-Sketch</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Etch-A-Sketch</h1>
-
-        <!-- Buttons and Sketch Panel -->
-        <div class="button-sketch-container">
-            <!-- Buttons -->
-            <div class="user-buttons">
-                <!-- Color Display -->
-                <input type="color" id='color-display' value="#000000">
-                
-                <!-- Choose Current Color Button -->
-                <button id="choose-color">Color</button>
-
-                <!-- Rainbow Mode -->
-                <button id="rainbow">Rainbow Mode</button>
-
-                <!-- Eraser -->
-                <button id="eraser">Eraser</button>
-
-                <!-- Clear -->
-                <button id="clear">Clear</button>
+    <div class="wrapper">
+        <div class="container">
+            <h1>Etch-A-Sketch</h1>
+    
+            <!-- Buttons and Sketch Panel -->
+            <div class="button-sketch-container">
+                <!-- Buttons -->
+                <div class="user-buttons">
+                    <!-- Color Display -->
+                    <input type="color" id='color-display' value="#000000">
+                    
+                    <!-- Choose Current Color Button -->
+                    <button id="choose-color">Color</button>
+    
+                    <!-- Rainbow Mode -->
+                    <button id="rainbow">Rainbow Mode</button>
+    
+                    <!-- Eraser -->
+                    <button id="eraser">Eraser</button>
+    
+                    <!-- Clear -->
+                    <button id="clear">Clear</button>
+                </div>
+    
+                <!-- Sketch Panel (use js to create the divs)-->
+                <div class="sketch-panel"></div>
             </div>
-
-            <!-- Sketch Panel (use js to create the divs)-->
-            <div class="sketch-panel"></div>
-        </div>
+        </div>    
     </div>
-
+    
     <!-- footer -->
     <div class="footer">Copyright (c) Nikko Chan 2022</div>
 
